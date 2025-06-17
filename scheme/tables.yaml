@@ -1,0 +1,12 @@
+tables:
+  - db: collect
+    no: 1
+    name: "Step Count"
+    physical_name: step_count
+    description: "daily step count"
+
+  - db: collect
+    no: 2
+    name: "Diary"
+    physical_name: diary
+    description: "Daily diary entries"

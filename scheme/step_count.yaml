@@ -1,0 +1,32 @@
+columns:
+  - no: 1
+    logical_name: "User ID"
+    physical_name: appUserId
+    data_type: int
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 2
+    logical_name: "Upload Timestamp to Server"
+    physical_name: uploadDate
+    data_type: timestamp
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 3
+    logical_name: "Date"
+    physical_name: date
+    data_type: varchar
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 4
+    logical_name: "Step Count"
+    physical_name: count
+    data_type: int
+    not_null: false
+    default: null
+    note: ""

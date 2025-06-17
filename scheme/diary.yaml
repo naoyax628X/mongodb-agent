@@ -1,0 +1,89 @@
+columns:
+  - no: 1
+    logical_name: "User ID"
+    physical_name: appUserId
+    data_type: int
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 2
+    logical_name: "Upload Timestamp to Server"
+    physical_name: uploadDate
+    data_type: timestamp
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 3
+    logical_name: "Record Date"
+    physical_name: date
+    data_type: varchar
+    not_null: true
+    default: null
+    note: ""
+
+  - no: 4
+    logical_name: "Emotion (9-type icon)"
+    physical_name: emotion
+    data_type: int
+    not_null: false
+    default: null
+    note: |
+      1: Happy
+      2: Fun
+      3: Calm
+      4: Neutral
+      5: Bored
+      6: Anxious
+      7: Tired
+      8: Angry
+      9: Sad
+
+  - no: 5
+    logical_name: "Meal – Breakfast"
+    physical_name: breakfast
+    data_type: int
+    not_null: false
+    default: null
+    note: ""
+
+  - no: 6
+    logical_name: "Meal – Lunch"
+    physical_name: lunch
+    data_type: int
+    not_null: false
+    default: null
+    note: ""
+
+  - no: 7
+    logical_name: "Meal – Snack"
+    physical_name: snack
+    data_type: int
+    not_null: false
+    default: null
+    note: ""
+
+  - no: 8
+    logical_name: "Meal – Dinner"
+    physical_name: dinner
+    data_type: int
+    not_null: false
+    default: null
+    note: ""
+
+  - no: 9
+    logical_name: "Meal – Late-Night Snack"
+    physical_name: suppr
+    data_type: int
+    not_null: false
+    default: null
+    note: ""
+
+  - no: 10
+    logical_name: "Free-Text Diary Entry"
+    physical_name: freeInputText
+    data_type: varchar
+    not_null: false
+    default: null
+    note: ""
